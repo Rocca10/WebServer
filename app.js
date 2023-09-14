@@ -2,6 +2,9 @@ const express = require("express");
 const path = require("path"); //Es para poner dirname, es una libreria de node
 const app = express();
 
+//comando para ejectuarlo nodemon: npm run start
+//comando para ejecutarlo con node: node app.js (app es el nombre del archivo)
+
 app.get('/',(req,res)=>{
     //res.send("Pagina principal") Es para probar que corrió el servidor
 
